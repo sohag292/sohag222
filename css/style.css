@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;1,600&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* common style */
+.legal-bg-primary{
+    background-color: #B68C5A;
+}
+
+.legal-text-primary{
+    color: #CFCFCF;
+}
+
+section{
+    margin: 120px 0px;
+  }
+
+
+/* Header style */
+.hero-image {
+    background-image: url('../images/banner.png');
+    background-repeat: no-repeat;
+    height: 500px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+  }
+
+.hero-text h1{
+    font-size: 50px;
+  }
+
+form input{
+    padding-right: 60px;
+  }
+
+
+ /* Practice Area */
+ .img-icon{
+    width: 40px;
+ }
+
+.card{
+    border: 0;
+  }
+
+.effect:hover{
+    background: linear-gradient(180deg, #F3F3F3 0%, rgba(243, 243, 243, 0) 100%);
+  }
+
+  /*carousel Client Say style */
+
+.legal-carousel-items {
+    width: 15%;
+}
+
+/* Frequently section style */
+/* Contact section style */
+
+
+/* Footer style section */
+footer .phone-list, footer .email-list{
+    line-height: 5px;
+}
+
+footer button{
+    margin-left: -66px
+}
+
